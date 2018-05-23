@@ -1,0 +1,110 @@
+body{
+	background: #333 url('../img/cutlery.jpg') center no-repeat;
+	background-size: cover;
+}
+
+.card{
+	background: url('../img/paper.jpg') top left repeat;
+	box-shadow: 0 10px 15px -8px #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 3em 0;
+}
+
+h1{
+	margin: 0 0 20px;
+	padding: 0 0 20px;
+	text-align: center;
+	border-bottom: solid 1px #ddd;
+}
+
+form label{
+	display: block;
+	margin: 25px 0;
+	font-weight: bold;
+}
+
+form input,
+form select{
+	padding: 3px;
+	margin: 10px 0;
+}
+
+form input[type="text"]{
+	width: 170px;
+	border: 1px solid #c3c3c3;
+	border-radius: 5px;
+}
+
+button{
+	background: #6c2726;
+	color: white;
+	border: none;
+	border-bottom: solid 4px #222;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 30px;
+	width: 100%;
+}
+
+button:hover{
+	background: #4c2827;
+	border-bottom-color: #111;
+}
+
+button:active{
+	position: relative;
+	top: 1px;
+}
+
+#totalTip {
+	font-size: 50px;
+	margin-top: 40px;
+}
+
+#totalTip:before {
+	content: "Tip amount";
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+}
+
+#totalTip sup {
+	font-size: 24px;
+	top: -18px;
+}
+
+#totalTip small {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* responsive */
+/* extra small */
+@media all and (max-width: 576px) {
+	body{
+		background: linear-gradient(#6c2726, #6c2726);
+	}
+}
+
+/* small */
+@media all and (min-width: 576px) {
+
+}
+
+/* medium */
+@media all and (min-width: 768px) {
+
+}
+
+/* large */
+@media all and (min-width: 992px) {
+
+}
+
+/* extra large */
+@media all and (min-width: 1200px) {
+
+}
